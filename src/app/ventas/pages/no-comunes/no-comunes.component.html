@@ -92,10 +92,7 @@
             <pre *ngIf="!(valorPromesa | async); else resPromesa">Resolviendo promesa</pre>
             <ng-template #resPromesa>
                 <pre>Promesa: {{ valorPromesa | async }}</pre>
-            </ng-template>
-            
-            
-            
+            </ng-template>      
 
         </p-fieldset>
     </div> 
